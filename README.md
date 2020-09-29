@@ -6,7 +6,7 @@ This is the RainbowWars [demo][demo]. RainbowWars is a cross-chain game.
 In RainbowWars, you can "attack" near from etherum via rainbow-bridge, or "attack" ethereum from near.
 
 If you attack from ethereum, you need to sign a `Attack` transaction with 1 wei and send it to ethereum. When the `Attack` transaction is confirmed, we will get the proof data of the transaction result, and relay it to near side via rainbow bridge. The contract on near side will verfiy the proof data and execute the `onAttackEvent` logic. If your attack is effective, you will get 1000000 NRC20 tokens as rewards.  
-Vice versa, but attack from near don't need pay and nears and you get the 1000000 ERC20 tokens as rewards.
+Vice versa, but attack from near don't need pay any nears and you get the 1000000 ERC20 tokens as rewards.
 
 Your attacks are not always effective. The contract will calculate two random numbers based on your attack information and target, one is attack value another is defence value. When `attack < defence`, your attack is effective. As the number of attacks increases, the probability of success decreases.
 
