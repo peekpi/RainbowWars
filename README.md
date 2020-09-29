@@ -10,7 +10,7 @@ Vice versa, but attack from near don't need pay any nears and you get the 100000
 
 Your attacks are not always effective. The contract will calculate two random numbers based on your attack information and target, one is attack value another is defence value. When `attack < defence`, your attack is effective. As the number of attacks increases, the probability of success decreases.
 
-Now, the game contract has deployed in Rinkeby testnet and Near testnet. There's also a front end, you can play the demo in [here][demo], it requires metamask browser plug-in and switch it to Rinkeby network.
+Now, the game contract has deployed in Rinkeby testnet and Near testnet. There's also a front end, you can play the demo in [here][demo], it requires metamask browser plug-in and switch it to Rinkeby network, also needs some eth tokens of the Rinkeby testnet.
 
 > In this demo, the contract only check the receipt by merkel tree or mp tree, but don't verify the tree root hash is valid. Deploy a light client (wrote by near guys) to verify the tree root hash is easy, but maintaining the light client is a very troublesome thing.
 
