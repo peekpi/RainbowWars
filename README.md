@@ -1,7 +1,8 @@
 # RainbowWars Demo
 
 ## Description
-This is the RainbowWars [demo][demo]. RainbowWars is a cross-chain game.
+This is the RainbowWars [demo][demo]. RainbowWars is a cross-chain game.  
+Here is the [video][video], sorry for the AI voice, beacuse English is not my first language.
 
 In RainbowWars, you can "attack" near from etherum via rainbow-bridge, or "attack" ethereum from near.
 
@@ -25,3 +26,4 @@ The RainbowWars project consists of three parts:
 [nearcontract]: https://github.com/peekpi/RainbowWars-Assembly
 [frontend]: https://github.com/peekpi/RainbowWars-Vue
 [describe]: https://github.com/peekpi/RainbowWars
+[video]: https://youtu.be/YTD7MGh-Vtw
